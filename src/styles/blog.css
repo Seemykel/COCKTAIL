@@ -1,0 +1,55 @@
+
+.blog {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.blog-hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.blog-hero h1 {
+  font-size: 2rem;
+  color: rgba(218, 165, 32, 0.829);
+}
+
+.blog-stories article {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.blog-stories h2 {
+  font-size: 1.3rem;
+  color: goldenrod;
+}
+
+.featured,
+.tips,
+.fun-fact,
+.comments {
+  background: #f9f9f9;
+  padding: 1rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+}
+
+ul {
+  margin: 0.5rem 0 0.5rem 1.5rem;
+}
+
+.fun-fact ul li {
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.comments {
+  text-align: center;
+  font-weight: bold;
+  color: #666;
+}

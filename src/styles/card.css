@@ -1,0 +1,32 @@
+        
+.section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.card{
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px;
+}
+img{
+    width: 370px;
+    height: 270px;
+    border-radius: 10px;
+}
+.card-body{
+    text-align: center;
+    font-size: 1.1em;
+}
+@media (max-width:992px) {
+    .section{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:600px) {
+    .section{
+        grid-template-columns: 1fr;
+    }
+}
