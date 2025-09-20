@@ -1,4 +1,5 @@
-import './styles/card.css'   
+
+import "./styles/card.css";
 import { useState } from 'react';
 
 const Card = ({ searchTerm = '' }) => {
